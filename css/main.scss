@@ -1,0 +1,33 @@
+@import "_variable";
+@import "_media";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.ejemplo{
+    clear: both;
+    float: right;
+}
+.bg-e{
+    background-color: $color-input;
+}
+.btn-dark{
+    margin-bottom: 30px;
+}
+.text-white{
+    color: $text-white;
+    padding: 0rem 4rem;
+}
+
+#exampleTextarea{
+    border-top: 1px solid $color-btn;
+
+}
+
+
+
+
+
